@@ -1,0 +1,51 @@
+body {
+    background-image: url('https://www.iave.org/iavewp/wp-content/uploads/2020/06/purple-background-registration.png');
+    font-family: 'Times New Roman', sans-serif;
+    margin: 0;
+}
+
+.main {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: grid;
+    grid-gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 50%;
+    padding: 12px 20px; /* Adjust padding as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block; /* Ensures the button takes up the full width */
+    margin: 0 auto; /* Centers the button horizontally */
+}
+
+button:hover {
+    background-color: #45a049;
+}
